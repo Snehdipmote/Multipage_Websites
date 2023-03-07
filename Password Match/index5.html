@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Match</title>
+    <link rel="stylesheet" href="/Password Match/style5.css">
+</head>
+<body>
+    <h1>Password Match</h1>
+    <h3><marquee>----------------Kindly enter your username and password to proceed----------------</marquee></h3>
+    <fieldset>
+    <form onSubmit = "return checkPassword(this)">
+        <!-- Enter Username -->
+            <label for="user">Enter Username:</label>
+            <input type = text id="user">
+        <!-- Enter Password. -->
+            <label for="pass">Enter Password:</label>
+            <input type = password id="pass">
+        <!-- To Confirm Password. -->
+            <label for="confirm">Confirm Password:</label>
+            <input type = password id="confirm">
+            <br>
+        <!-- Submit button -->
+            <button type = submit>Click to Submit</button>
+    </form>
+    </fieldset>
+</body>
+    <script src="/Password Match/script5.js">
+    </script>
+</html>
