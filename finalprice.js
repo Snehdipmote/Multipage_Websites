@@ -9,5 +9,5 @@ for(i=0;i<cart3.length;i++)
     final[i]=cart3[i].unitprice*cart3[i].quantity;
     final_price=final_price+final[i];
 }
-console.log(final);
+console.log(cart3);
 console.log("The total bill to be paid for items in the cart:$",final_price);
