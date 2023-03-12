@@ -1,0 +1,36 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    background-color: rgb(244, 174, 89);
+    border: 50px solid black
+}
+#heading
+{
+    font-size: 50px;
+}
+button
+{
+    background-color: rgb(76, 77, 73);
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    padding: 30px;
+    border-radius: 20px;
+}
+button:hover
+{
+    background-color: black;
+    color: rgb(244, 174, 89);   
+}
