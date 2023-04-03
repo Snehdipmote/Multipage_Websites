@@ -1,0 +1,93 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+body 
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(211, 193, 169);
+}
+div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 15px;
+}
+
+button
+{
+    padding: 16px;
+    font-size: 30px;
+    background-color: rgb(213, 240, 173);
+    color: black;
+    border-radius: 10px;        
+}
+button:hover
+{
+    border-color: rgb(102, 171, 0);
+}
+#double
+{
+    display: flex;
+    gap: 80px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+}
+#mover
+{
+    display: flex;
+    gap: 80px;
+    padding-left: 80px;
+}
+#mout
+{
+    display: flex;
+    gap: 40px;
+    padding-left: 15px;
+}
+#keypress
+{
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+}
+#keyupdown
+{
+    display: flex;
+    gap: 40px;
+    padding-left: 2px;
+}
+.mouseover
+{
+    text-align: center;
+    font-size: 30px;
+}
+.mouseout
+{
+    text-align: center;
+    font-size: 30px;
+    padding-left:50px;
+}
+#input-box
+{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+}
+#display2
+{
+    text-align: center;
+    font-size: 30px;
+}
