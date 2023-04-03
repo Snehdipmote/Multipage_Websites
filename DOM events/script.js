@@ -1,5 +1,11 @@
 let c1=document.getElementById("doubleclick");
-
+c1.addEventListener("click",()=>{
+    c1.innerText="Clicked";
+    c1.style.backgroundColor="Yellowgreen";
+    alert(
+        "click event is working properly)"
+      );
+})
 c1.addEventListener("dblclick",()=>{
     c1.innerText="Clicked twice";
     c1.style.backgroundColor="Orange";
